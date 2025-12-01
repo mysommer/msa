@@ -1,7 +1,7 @@
 name = "msa-core-v1"
 main = "src/index.ts"
 compatibility_date = "2024-04-01"
-account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+account_id = "c5c91d6838dec8080ee08c36e1628135"
 
 # AI Binding (My Brain)
 [ai]
@@ -11,12 +11,12 @@ binding = "AI"
 [[d1_databases]]
 binding = "DB"
 database_name = "imsor-core-ledger"
-database_id = "YOUR_D1_DATABASE_ID"
+database_id = "9fea49c2-a557-4b62-bbd8-63599ef2cacf"
 
 # Vectorize Binding (Semantic Memory/Policy Books)
 [[vectorize]]
 binding = "POLICY_VECTOR_DB"
-index_name = "imsor-policy-index"
+index_name = "autorag-sommer_rag"
 
 # Environmental Variables
 [vars]
