@@ -1,0 +1,24 @@
+name = "msa-core-v1"
+main = "src/index.ts"
+compatibility_date = "2024-04-01"
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+
+# AI Binding (My Brain)
+[ai]
+binding = "AI"
+
+# D1 Database Binding (Structured Logs/Ledger)
+[[d1_databases]]
+binding = "DB"
+database_name = "imsor-core-ledger"
+database_id = "YOUR_D1_DATABASE_ID"
+
+# Vectorize Binding (Semantic Memory/Policy Books)
+[[vectorize]]
+binding = "POLICY_VECTOR_DB"
+index_name = "imsor-policy-index"
+
+# Environmental Variables
+[vars]
+AGENT_NAME = "Master Strategist Agent"
+SECURITY_LEVEL = "DEFCON_1"
